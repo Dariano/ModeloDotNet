@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Presentation", "0. Presentation", "{8A51CCD9-7EF9-44E3-B0CD-BA98605196F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Services", "1. Services", "{1E150BE8-1DE0-48A2-8143-CA6F8A70551D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{68B47217-C98C-4E14-92A9-36AE4F02996B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{3D3ACF5A-3AE9-4BBE-882C-4533AC63320F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infra", "4. Infra", "{69DD70E5-055D-4DE8-85B8-AC4A860E90D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDotNot.Domain", "ModeloDotNot.Domain\ModeloDotNot.Domain.csproj", "{64F57390-4283-464D-9BF2-6EFAF81B60A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64F57390-4283-464D-9BF2-6EFAF81B60A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F57390-4283-464D-9BF2-6EFAF81B60A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F57390-4283-464D-9BF2-6EFAF81B60A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F57390-4283-464D-9BF2-6EFAF81B60A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64F57390-4283-464D-9BF2-6EFAF81B60A9} = {3D3ACF5A-3AE9-4BBE-882C-4533AC63320F}
+	EndGlobalSection
+EndGlobal
