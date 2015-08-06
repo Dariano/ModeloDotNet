@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{2D6D7E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDotNet.Domain.Test", "ModeloDotNet.Domain.Test\ModeloDotNet.Domain.Test.csproj", "{C7F6A3C5-6A07-4B5B-9652-0D32E955D90D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloDotNet.Application", "ModeloDotNet.Application\ModeloDotNet.Application.csproj", "{240077AB-EEF7-4FC5-BE46-9308839BE535}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C7F6A3C5-6A07-4B5B-9652-0D32E955D90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F6A3C5-6A07-4B5B-9652-0D32E955D90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F6A3C5-6A07-4B5B-9652-0D32E955D90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240077AB-EEF7-4FC5-BE46-9308839BE535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240077AB-EEF7-4FC5-BE46-9308839BE535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240077AB-EEF7-4FC5-BE46-9308839BE535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240077AB-EEF7-4FC5-BE46-9308839BE535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{64F57390-4283-464D-9BF2-6EFAF81B60A9} = {3D3ACF5A-3AE9-4BBE-882C-4533AC63320F}
 		{C7F6A3C5-6A07-4B5B-9652-0D32E955D90D} = {2D6D7EFD-17FF-4157-98F7-0B9D2DF2BD17}
+		{240077AB-EEF7-4FC5-BE46-9308839BE535} = {68B47217-C98C-4E14-92A9-36AE4F02996B}
 	EndGlobalSection
 EndGlobal
