@@ -1,4 +1,6 @@
-﻿namespace ModeloDotNot.Domain.Votos
+﻿using System;
+
+namespace ModeloDotNot.Domain.Votos
 {
     public class UrnaService
     {
@@ -11,6 +13,10 @@
 
         public bool Recebe(Voto voto)
         {
+            var jaVotou = _votos.ObterVoto(voto.Profissional, voto.Data);
+
+            if(jaVotou != null) throw new ApplicationException("Proficional já votou na data corrente.");
+
             _votos.Adicionar(voto);
 
             return true;
